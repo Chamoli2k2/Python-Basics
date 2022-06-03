@@ -1,0 +1,11 @@
+# we use input function to take input , and we put 'int' to classify type of input it will be
+
+x=int(input("Enter the no : "))   
+y=int(input("Enter the no : "))
+print(x+y)
+
+
+Output window :
+Enter the no : 89
+Enter the no : 45
+134
