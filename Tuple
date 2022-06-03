@@ -1,0 +1,17 @@
+# Tuple is different than list as we can't change value in tuple . 
+# '()' curly brackets are used for declaration of a tuple
+
+name = (1,2,3,5,"gaurav")  # decleration of tuple
+print(name)
+
+print(name[3])
+name[2]=69  # we tried to change value in tuple but it will give us an error 
+
+
+Output window : 
+(1, 2, 3, 5, 'gaurav')
+5
+Traceback (most recent call last):
+  File "c:\Coding in vs code\Python codes\temp.py", line 34, in <module>
+    name[2]=69
+TypeError: 'tuple' object does not support item assignment
