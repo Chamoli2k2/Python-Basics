@@ -1,0 +1,10 @@
+# set (Basic logic of set in python is same as in c++)
+# indexing is not possible in set in python same as in c++
+# set arranges element in random location so it's not necessary ouput of set is also same as order of input given
+# we use curly bracket '{}' for initialising set
+
+s= {1,3,3,1,5,69}
+print(s)
+
+Output window : 
+{1, 5, 3, 69}
