@@ -1,0 +1,6 @@
+5+2    # output : 2
+5*3    # output : 15
+5**3   # output : 125   (5 ki power 3)
+5/2    # output : 2.5
+5//2   # output : 2     (integer division)
+
