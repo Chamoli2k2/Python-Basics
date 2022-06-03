@@ -1,0 +1,35 @@
+# In list we have option to use different datatype.. this is not available in c++
+temp = [1,3,5,4,"Gaurav",'naveen',3.3]
+print(temp[4])
+print(temp[-1])    # from -ve no.. list start from ending
+print(temp[-1:7])    
+print(temp[2:5])   # (starting index, just next index of ending)
+
+# append operation
+temp.append(69)
+print(temp)
+
+#inser operation
+temp.insert(2,"Chamoli")   # (index,key)
+print(temp) 
+
+#pop operation
+temp.pop()   # remove last element from list
+
+temp.pop(1)  #index no.
+print(temp)
+
+#clear function
+temp.clear()
+print(temp)
+
+
+Output window
+Gaurav
+3.3
+[3.3]
+[5, 4, 'Gaurav']
+[1, 3, 5, 4, 'Gaurav', 'naveen', 3.3, 69]
+[1, 3, 'Chamoli', 5, 4, 'Gaurav', 'naveen', 3.3, 69]
+[1, 'Chamoli', 5, 4, 'Gaurav', 'naveen', 3.3]
+[]
