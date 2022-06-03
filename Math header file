@@ -1,0 +1,22 @@
+# Math header file
+import math
+# sqrt function
+print(math.sqrt(3))
+# power function
+print(math.pow(3,6))
+# ceil function
+print(math.ceil(3.4))
+# floor function
+print(math.floor(5.69))
+
+# we can give alise name to math or any header file to
+
+import math as m
+print(m.sqrt(57))
+
+Output window : 
+1.7320508075688772
+729.0
+4
+5
+7.54983443527075
