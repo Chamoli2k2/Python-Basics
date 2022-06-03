@@ -1,0 +1,23 @@
+# for loop 
+list1=[1,3,5,6,6,7]
+
+#type 1
+for i in list1 :   # it is similar like auto i : x (which we do in c++)
+    print(i)
+
+#type 2
+for x in range(1,6,1):
+    print(x*"*")
+    
+Output window : 
+1
+3
+5
+6
+6
+7
+*
+**
+***
+****
+*****
