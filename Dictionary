@@ -1,0 +1,23 @@
+# Dictionar"y is similar like map which we get in c++
+
+# initialising a dictionary
+student_id = {1:"chamoli",2:"Sourabh",3:"gaurav",4:"riya"}  # key:value
+print(student_id[1])  # student_id[key]
+
+# if key is not present than it show "Key error: key_given"
+print(student_id[9])
+
+# merging two list to form dictionary
+list1=["chamoli","rahul","rohit","khushi"]
+list2=["c++","java","python","mongo-db"]
+
+data=dict(zip(list1,list2))
+print(data)
+ 
+data["ravi"]="jango"
+print(data)
+
+Output window :
+chamoli
+{'chamoli': 'c++', 'rahul': 'java', 'rohit': 'python', 'khushi': 'mongo-db'}
+{'chamoli': 'c++', 'rahul': 'java', 'rohit': 'python', 'khushi': 'mongo-db', 'ravi': 'jango'}
