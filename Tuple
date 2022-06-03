@@ -1,5 +1,5 @@
 # Tuple is different than list as we can't change value in tuple . 
-# '()' curly brackets are used for declaration of a tuple
+# '()' round brackets are used for declaration of a tuple
 
 name = (1,2,3,5,"gaurav")  # decleration of tuple
 print(name)
