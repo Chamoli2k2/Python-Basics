@@ -1,0 +1,13 @@
+from numpy import*
+# declaration of 1d array 
+# method 1 :
+val=array([1,3,5])
+print (val)
+
+# method 2 :
+val2=array(val,float)   
+print(val2)
+
+output window : 
+[1 3 5]
+[1. 3. 5.]
