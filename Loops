@@ -1,0 +1,34 @@
+Ques 1 : 
+#####
+#####
+#####
+#####
+#####
+
+code :
+for i in range(0,5):
+    print("#"*5)
+
+
+Ques 2 : 
+#
+##
+###
+####
+#####
+
+code : 
+for i in range(1,6):
+  print("*"*i)
+  
+  
+Ques 3 : 
+#####
+####
+###
+##
+#
+
+code : 
+for i in range(5,0,-1)  
+  print("*" * i)
